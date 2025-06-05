@@ -54,4 +54,7 @@ class Stack
             cout << "popped value: " << top->data << endl; 
             top = top->next; // Update the top pointer to the next node
            
+        }
+        //pek/top operation: return the top element of the stack without removing it
+        void peek()
 
