@@ -95,5 +95,3 @@ class Stack
                 cin >> value;
                 stack.push(value);
                 break;
-
-
