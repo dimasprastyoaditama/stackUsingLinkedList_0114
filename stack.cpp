@@ -25,3 +25,20 @@ class Stack
             top = NULL; // Initialize the stack with a null top pointer
         }
 
+        //push operation: insert an element at the top of the stack
+        int push(int value) 
+        {
+            Node* newNode = new Node(); // 1. Allocate memory for a new node
+            newNode->data = value;      // 2. Assign value
+            newNode->next = top;        // 3. set the next pointer of the new node to the current 
+            top = newNode;              // 4. Update the top pointer to point to the new node
+            cout << "push value: " << value << endl; 
+            return value;
+        }
+
+        //isEmpty operation: check if the stack is empty
+        bool isEmpty() 
+        {
+            return top == NULL; // Return true if the top pointer is null, indicating the stack is empty
+        }
+
