@@ -107,3 +107,6 @@ class Stack
             default:
                 cout << "Invalid choice. Try again." << endl;
                 break;
+            }
+            cout << endl;
+        }
