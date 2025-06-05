@@ -110,3 +110,6 @@ class Stack
             }
             cout << endl;
         }
+    }
+    return 0;
+}
